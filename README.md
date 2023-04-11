@@ -54,3 +54,12 @@ KITTI
 ├──────────......
 └──────────21
 ```
+
+5. Run
+
+```
+source devel/setup.bash
+roslaunch kitti2bag kitti2bag.launch
+```
+
+Please change the varibales about PATH in launch file before running.
