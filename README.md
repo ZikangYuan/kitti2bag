@@ -23,3 +23,34 @@ mkdir /kitti2bag/src
 cd /kitti2bag/src
 ```
 
+3. Clone and build this repository
+
+```
+git clone https://github.com/ZikangYuan/kitti2bag.git
+cd ..
+catkin_make
+```
+
+4. Adjust directory structure
+
+Please make sure that the directory format of KITTI is as follow:
+
+```
+KITTI 
+├──────────00
+           ├─────times.txt
+           ├─────image_0
+                 ├─────────000000.png
+                 ├─────────000001.png
+                 ├─────────......
+                 └─────────004540.png
+           └─────velodyne
+                 ├─────────000000.bin
+                 ├─────────000001.bin
+                 ├─────────......
+                 └─────────004540.bin
+├──────────01
+├──────────02
+├──────────......
+└──────────21
+```
