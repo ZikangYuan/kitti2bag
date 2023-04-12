@@ -1,4 +1,4 @@
-# kitti2bag
+# KITTI-Odometry to ROS bag
 
 **This sourced code is for converting data of [KITTI odometry dataset](https://www.cvlibs.net/datasets/kitti/eval_odometry.php) to ROS bag format.**
 
